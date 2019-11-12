@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'test' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 verbose run-script [ 'pretest', 'test', 'posttest' ]
+5 info lifecycle ps-redux@~pretest: ps-redux@
+6 silly lifecycle ps-redux@~pretest: no script for pretest, continuing
+7 info lifecycle ps-redux@~test: ps-redux@
+8 verbose lifecycle ps-redux@~test: unsafe-perm in lifecycle true
+9 verbose lifecycle ps-redux@~test: PATH: C:\Users\stedesco\AppData\Roaming\nvm\v6.10.3\node_modules\npm\bin\node-gyp-bin;C:\Users\stedesco\Documents\Corsi\react-redux-react-router-es6\09\demos\before\node_modules\.bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\stedesco\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Novell\iPrint;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_201;C:\Users\stedesco\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Java\jdk1.8.0_201\bin;C:\apache-maven-3\apache-maven-3.5.0\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\PuTTY;C:\Users\stedesco\AppData\Local\Microsoft\WindowsApps;C:\Users\stedesco\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\stedesco\AppData\Roaming\npm;C:\Users\stedesco\AppData\Roaming\nvm;C:\Program Files\nodejs
+10 verbose lifecycle ps-redux@~test: CWD: C:\Users\stedesco\Documents\Corsi\react-redux-react-router-es6\09\demos\before
+11 silly lifecycle ps-redux@~test: Args: [ '/d /s /c', 'jest --watchAll' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1018:11)
+12 verbose stack     at process.kill (internal/process.js:190:13)
+12 verbose stack     at process.listener (C:\Users\stedesco\AppData\Roaming\nvm\v6.10.3\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:91:20)
+12 verbose stack     at process.emit (events.js:185:7)
+12 verbose stack     at processEmit (C:\Users\stedesco\AppData\Roaming\nvm\v6.10.3\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (C:\Users\stedesco\AppData\Roaming\nvm\v6.10.3\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:217:44)
+13 verbose cwd C:\Users\stedesco\Documents\Corsi\react-redux-react-router-es6\09\demos\before
+14 error Windows_NT 10.0.17134
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "test"
+16 error node v6.10.3
+17 error npm  v3.10.10
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
